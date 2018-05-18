@@ -1,14 +1,13 @@
 body {
-    background-color: cadetblue;
+    background-color: #2e9a9e;
 }
 
 #instrument {
-    height: auto;
-    max-width: 1000rem;
+    padding: 5rem;
     margin: 0 auto;
-    padding-top: 10rem;
-    padding-left: 10rem;
-    position: absolute;
+    max-width: 1000px;
+    height: auto;
+    box-sizing: border-box;
 }
 
 .box {
@@ -18,6 +17,7 @@ body {
     margin: 0 auto;
     float: left;
     border-radius: 100%;
+    margin: 0.05rem;
 }
 
 #a {
@@ -53,4 +53,39 @@ body {
 #g {
     background-color: #43293d;
     border: 3px solid #f26fd4;
+}
+
+#a:hover {
+    background-color:#661920;
+    cursor: pointer;
+}
+
+#b:hover {
+    background-color:#6e2819;
+    cursor: pointer;
+}
+
+#c:hover {
+    background-color:#735b20;
+    cursor: pointer;
+}
+
+#d:hover {
+    background-color:#1b613b;
+    cursor: pointer;
+}
+
+#e:hover {
+    background-color:#184d65;
+    cursor: pointer;
+}
+
+#f:hover {
+    background-color:#4e2753;
+    cursor: pointer;
+}
+
+#g:hover {
+    background-color:#6f3a62;
+    cursor: pointer;
 }
